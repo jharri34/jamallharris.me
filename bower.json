@@ -2,6 +2,9 @@
   "name": "jamallharris-me",
   "private": true,
   "dependencies": {
-    "bootstrap": "~3.2.0"
+    "bootstrap": "~3.2.0",
+    "trianglify": "~0.1.5",
+    "font-awesome": "~4.3.0",
+    "fullpage.js": "~2.5.6"
   }
 }
