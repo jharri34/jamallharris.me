@@ -2,7 +2,7 @@ $(document).ready(function() {
     $('#fullpage').fullpage({
         //Navigation
         menu: false,
-//        anchors:['firstSlide', 'secondSlide'],
+        anchors:['home', 'about', 'contact'],
         navigation: true,
         navigationPosition: 'right',
 //        navigationTooltips: ['firstSlide', 'secondSlide'],
@@ -16,10 +16,10 @@ $(document).ready(function() {
         scrollBar: false,
         easing: 'easeInQuart',
         easingcss3: 'ease',
-        loopBottom: true,
-        loopTop: true,
+//        loopBottom: true,
+//        loopTop: true,
         loopHorizontal: true,
-        continuousVertical: true,
+//        continuousVertical: true,
 //        normalScrollElements: '#element1, .element2',
         scrollOverflow: false,
         touchSensitivity: 15,
@@ -45,7 +45,9 @@ $(document).ready(function() {
         slideSelector: '.slide',
 
         //events
-        onLeave: function(index, nextIndex, direction){},
+        onLeave: function(index, nextIndex, direction){
+        
+        },
         afterLoad: function(anchorLink, index){},
         afterRender: function(){},
         afterResize: function(){},
